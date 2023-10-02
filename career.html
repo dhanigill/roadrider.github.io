@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <title>Careers: RoadRiders Transport Ltd</title>
+
+  <head>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/career.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <script src="js/career.js"></script>
+    <script src="js/header.js"></script>
+  </head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <body>
+    <div class="header">
+      <a id="menu"></a>
+      <a href="index.html"><img class="logo" src="img/logo.png" /></a>
+      <ul class="nav">
+        <li><a href="index.html" class="header_link">Home</a></li>
+        <li><a href="contact.html" class="header_link">Contact</a></li>
+        <li><a href="career.html" class="header_link">Careers</a></li>
+      </ul>
+    </div>
+
+
+    <div class="sec-1"></div>
+    <div class="text-1">
+      <p><img class="logoB" src="img/logo.png" /></p>
+      <p>
+        We are hiring every now and then so please fill in the form below and we
+        will make sure to get back to you soon.
+      </p>
+    </div>
+
+    <div class="info">
+      <div style="display: inherit">
+        <form action="send.php" enctype="multipart/form-data" method="post">
+          <legend>Join Our Team</legend>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="First Name"
+            class="frm"
+          /><br />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Last Name"
+            class="frm"
+          /><br />
+          <input
+            type="tel"
+            id="cnum"
+            name="cnum"
+            placeholder="Cell Number"
+            class="frm"
+          /><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            class="frm"
+          />
+          <br />
+          <label for="resume" id="resume1">Upload Resume:<span style="color: red;">&#42;</span></label>
+          <input type="file" id="resume" name="file" class="frm"/><br />
+          <button id="submit">SUBMIT</button>
+        </form>
+      </div>
+
+
+      <div class="EmpImg">
+        <img src="img/driv1.jpg" />
+      </div>
+    </div>
+
+    <div class="sec-3">
+      <p>RoadRiders Transport Ltd. &#174</p>
+      <p>- Created and managed by Dhanwant Gill</p>
+    </div>
+  </body>
+</html>
