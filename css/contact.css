@@ -2,7 +2,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   position: relative;
-  background-color:whitesmoke;
+  background-image: linear-gradient(whitesmoke, white);
 }
 
 html,

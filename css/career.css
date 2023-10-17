@@ -2,7 +2,8 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   position: relative;
-  background-color:whitesmoke;
+  background-image: linear-gradient(whitesmoke, white);
+
 }
 
 html,
@@ -83,7 +84,7 @@ form {
   position: absolute;
   left: 5%;
   border: 0px solid rgba(0, 0, 0, 0);
-  border-radius: 10px;
+  border-radius: 3px;
   padding: 2% 2% 2.5% 2%;
   background-color: rgba(235, 235, 235, 0.8);
   box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.4);
@@ -101,7 +102,7 @@ legend {
   padding: 2% 5% 2% 3%;
   margin: 1%;
   border: 1px solid rgba(0, 0, 0, 0.8);
-  border-radius: 7px;
+  border-radius: 3px;
   box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
@@ -134,7 +135,6 @@ legend {
 #submit:hover{
   background-color: rgba(255,255,255, 1);
   color: black;
-  transform: scale(1.1);
   transition: ease-in-out 0.3s;
 }
 
@@ -144,7 +144,7 @@ legend {
   position: relative;
   top: 10%;
   box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.4);
-  border: 5px outset white;
+  border: 3px outset black;
   z-index: -1;
 }
 
@@ -189,6 +189,7 @@ legend {
     margin-top: 40%;
     background-size: contain;
     background-position: 0 100%;
+    display: block;
   }
   
   form{
@@ -205,17 +206,23 @@ legend {
   }
 
   .frm{
-    max-width: 78%;
+    width: 78%;
+    margin: 1em 0;
+    margin-left: 1em;
   }
 
   .frm:last-of-type{
-    max-width: 58%;
+    max-width: 55%;
   }
 
   #submit{
+    margin: 2em 0;
     position: relative;
-    left: -5%;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-radius: 20px;
   }
+  
 }
  
 @media screen and (max-width: 1000px) and (min-width: 700px) {

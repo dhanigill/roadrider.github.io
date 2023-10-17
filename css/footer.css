@@ -1,26 +1,56 @@
 .sec-3 {
   display: block;
   clear: both;
-  text-align: center;
   background-color: rgb(227, 227, 227);
-  font-size: 1em;
-  font-weight: bold;
-  height: 100px;
+  height: 30%;
   box-shadow: inset 0px 13px 7px -14px #000000;
   bottom: 0;
   position: relative;
   width: 100%;
 }
 
-.sec-3 p:nth-child(1) {
-  padding-top: 35px;
+.s3 {
+  padding-top: 2%;
+  font-size: 0.7em;
+  padding-left: 10%;
+  padding-right: 25%;
+  height: auto;
+}
+.s3 p:nth-child(1){
+  font-weight: bold;
+  font-size: 1.3em;
+  padding-right: 2%;
+  float: left;
+}
+.s3 p:nth-child(2){
+  line-height: 1.5;
+  float: left;
+  padding-right: 2%;
 }
 
-.sec-3 p:nth-child(2) {
-  position: relative;
+.s3 p:nth-child(3){
+  float: left;
+  line-height: 2.7;
+}
+
+.s3 p:nth-child(3) a{
+  text-decoration: none;
+  color: black;
+}
+
+.last {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 0.6em;
-  padding-top: 17px;
   font-weight: 500;
-  bottom: 5%;
+  font-style: italic;
 }
 
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+.sec-3{
+  height: 50%;
+}
+}
