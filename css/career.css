@@ -3,7 +3,6 @@ body {
   color: black;
   position: relative;
   background-image: linear-gradient(whitesmoke, white);
-
 }
 
 html,
@@ -80,7 +79,7 @@ body {
 
 form {
   display: inherit;
-  max-width: 60vh;
+  max-width: 90%;
   position: relative;
   left: 10%;
   border: 0px solid rgba(0, 0, 0, 0);
@@ -132,8 +131,8 @@ legend {
   box-shadow: 1px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-#submit:hover{
-  background-color: rgba(255,255,255, 1);
+#submit:hover {
+  background-color: rgba(255, 255, 255, 1);
   color: black;
   transition: ease-in-out 0.3s;
 }
@@ -154,24 +153,24 @@ legend {
 }
 
 @media screen and (max-width: 700px) {
-
-  html,body{
+  html,
+  body {
     margin: 0;
   }
-  
-  .sec-1{
+
+  .sec-1 {
     min-width: 100%;
     background-position: 0;
   }
 
-  .text-1{
+  .text-1 {
     display: block;
   }
 
   .text-1 p:nth-child(1) {
     clear: both;
     min-width: 100%;
-    left:0%;
+    left: 0%;
   }
 
   .text-1 p:nth-child(2) {
@@ -182,58 +181,63 @@ legend {
     position: relative;
     top: 40%;
   }
-  .EmpImg{
+  .EmpImg {
     visibility: hidden;
   }
 
-  .info{
+  .info {
     margin-top: 40%;
     background-size: contain;
     background-position: 0 100%;
     display: block;
   }
-  
-  form{
+
+  form {
     max-width: 90%;
     left: 3%;
   }
- 
-  legend{
+
+  legend {
     position: relative;
     left: 45%;
-    transform: translate(-50%,10%);
+    transform: translate(-50%, 10%);
     text-align: center;
   }
 
-  .frm{
+  .frm {
     width: 78%;
     margin: 1em 0;
     margin-left: 1em;
   }
 
-  .frm:last-of-type{
+  .frm:last-of-type {
     max-width: 55%;
   }
 
-  #submit{
+  #submit {
     margin: 2em 0;
     position: relative;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     border-radius: 20px;
   }
-  
 }
- 
+
 @media screen and (max-width: 1000px) and (min-width: 700px) {
-  .EmpImg{
+  .EmpImg {
     visibility: hidden;
   }
 
-  .info{
+  .info {
     margin-top: 40%;
     background-size: contain;
     background-position: 90% 0%;
   }
-}
 
+  .frm{
+    max-width: 80%;
+  }
+  .frm:last-of-type {
+    max-width: 60%;
+  }
+}
