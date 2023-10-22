@@ -18,7 +18,7 @@ body {
   display: grid;
   grid-column: 2;
   grid-template-columns: 60% auto;
-  margin-top: 7em;
+  margin-top: 15vh;
   min-height: 100%;
   width: 100%;
   overflow: hidden;
@@ -30,6 +30,7 @@ body {
   border: 2px solid rgb(227, 227, 227);
   float: left;
   max-width: 90%;
+  margin-left: 1%;
 }
 
 .Info {
@@ -40,8 +41,9 @@ body {
   text-align: left;
 }
 
-.address,.hours {
+.contact,.address,.hours {
   line-height: 1.1em;
+  font-size: 2vh;
 }
 
 @media screen and (max-width: 700px) {
@@ -51,8 +53,8 @@ body {
     grid-gap: 5%;
     grid-template-rows: 30% auto;
     grid-template-areas: 'map' 'info';
-    margin-left: 5%;
     margin-bottom: 10%;
+    margin-left: 4%;
   }
   .map{
     max-height: 100%;

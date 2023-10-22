@@ -19,10 +19,8 @@ body {
   display: block;
   position: relative;
   background: url(../img/hir.png);
-  background-position: 0 50%;
   background-repeat: no-repeat;
-  top: 5em;
-  height: 40em;
+  height: 100vh;
   background-size: cover;
   filter: blur(3px);
   -webkit-filter: blur(3px);
@@ -38,8 +36,8 @@ body {
 .text-1 {
   display: inline-block;
   position: absolute;
-  height: 40em;
-  top: 5em;
+  top: 0;
+  height: 100vh;
   width: 100%;
   overflow: hidden;
 }
@@ -57,11 +55,11 @@ body {
   max-width: 40%;
   float: right;
   margin: 0;
-  height: 100%;
-  padding: 7.4em 1em;
+  height: 100vh;
   color: aliceblue;
+  padding: 40vh 2vh;
   font-weight: 700;
-  font-size: 1.9em;
+  font-size: 4.8vh;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(3px);
   text-shadow: 1px 1px 8px black;
@@ -161,6 +159,7 @@ legend {
   
   .sec-1{
     min-width: 100%;
+    background-position: 0;
   }
 
   .text-1{
@@ -177,9 +176,9 @@ legend {
     clear: both;
     min-width: 90%;
     padding: 20% 5%;
-    font-size: 1.2em;
+    font-size: 3vh;
     position: relative;
-    top: 30%;
+    top: 40%;
   }
   .EmpImg{
     visibility: hidden;
